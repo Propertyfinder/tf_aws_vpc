@@ -53,3 +53,7 @@ output "natgw_ids" {
 output "igw_id" {
   value = "${aws_internet_gateway.mod.id}"
 }
+
+output "main_route_table_id" {
+  value = "${aws_vpc.mod.main_route_table_id}"
+}

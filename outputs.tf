@@ -57,3 +57,7 @@ output "igw_id" {
 output "main_route_table_id" {
   value = "${aws_vpc.mod.main_route_table_id}"
 }
+
+output "default_network_acl_id" {
+  value = "${aws_vpc.mod.default_network_acl_id}"
+}
